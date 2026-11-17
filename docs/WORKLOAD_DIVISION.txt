@@ -1,0 +1,158 @@
+FAST STUDENT ASSISTANT — WORKLOAD DIVISION
+Team: Hareem, Noor
+Based on: docs/PLAN.md and docs/PREPROCESSING_PLAN.md (4-week pilot, ~8 hours/week each)
+
+======================================================================
+HOW THE WORK IS SPLIT
+======================================================================
+
+HAREEM — Knowledge & Data owner
+  Everything that turns raw sources into clean, cited, searchable text:
+  PDF/web extraction, cleaning, chunking experiments, database schema,
+  ingestion pipeline, paper catalogue.
+
+NOOR — Retrieval, App & Agent owner
+  Everything that turns the stored knowledge into answers:
+  embeddings + retrieval, answer generation with citations, Streamlit UI,
+  hybrid search, LangGraph agent and tools, deployment.
+
+SHARED — Evaluation
+  Both write and label the evaluation questions so neither person is
+  grading only their own work. Each reviews the other's pull requests.
+
+Interface between the two halves (agree on this in Week 1, Day 1):
+  - The `chunks` table / LangChain Document format: text + metadata
+    (source_id, revision_id, title, url, physical_page, printed_page,
+    section_path, campus, programme, edition, fetched_at).
+  - Hareem guarantees this format; Noor builds only against it.
+
+======================================================================
+WEEK 1 — Reliable source text
+======================================================================
+
+HAREEM
+  [ ] Set up repo structure, requirements.txt, .env.example
+  [ ] Extract Academic_Rules_Handbook_2026.pdf (PyPDFLoader vs pdfplumber)
+  [ ] Visually inspect 5–10 pages: paragraphs, numbered rules, a table,
+      a rule spanning two pages; fix reading order / tables
+  [ ] Map physical PDF page -> printed page label for citations
+  [ ] Clean headers/footers/line-wrap artifacts; keep rule numbers,
+      exceptions, dates, numeric thresholds
+  [ ] Save canonical page/block extraction (raw files kept unchanged)
+
+NOOR
+  [ ] Set up Supabase project + pgvector; create tables:
+      sources, source_revisions, canonical_blocks, index_runs, chunks,
+      resource_links
+  [ ] Write the source registry (approved PDFs + ~10 official URLs)
+  [ ] Verify official URLs/editions of both handbooks on the FAST
+      downloads page
+  [ ] Draft a minimal "retrieve -> answer" script against a few
+      hand-made chunks to test the model SDK + budget limit ($15 cap)
+
+SHARED
+  [ ] Write 40 evaluation questions (20 each): 10 dev + 30 held-out.
+      Cover policy lookups, paraphrases, exceptions, cross-page rules,
+      tables, combined questions, paper filtering, ambiguous, outdated,
+      and unanswerable questions
+  [ ] Label supporting passages by source + page + quote (NOT chunk ID)
+
+Week 1 result: clean handbook passages with correct page references.
+
+======================================================================
+WEEK 2 — Basic RAG
+======================================================================
+
+HAREEM
+  [ ] Extract + clean Student_Handbook_2026.pdf the same way
+  [ ] Build chunking variants R300, R500, R800, S500 using
+      RecursiveCharacterTextSplitter.from_tiktoken_encoder(...)
+  [ ] Add title + section breadcrumb to retrieval text; keep the
+      unmodified evidence body for citations
+  [ ] Deterministic chunk IDs + content hashes (no duplicates on
+      re-ingestion); stage/activate index runs
+
+NOOR
+  [ ] Embed each variant with text-embedding-3-small into separate
+      index runs
+  [ ] Vector retrieval (top 6) filtered by index_run_id
+  [ ] Answer generation with gpt-4.1-mini: cite only retrieved
+      passages; validate returned citation IDs
+  [ ] Simple Streamlit chat UI showing the answer + supporting passages
+
+SHARED
+  [ ] Run the 4 chunking experiments on the dev set: evidence hit@6,
+      complete coverage@6, context tokens, fixed 3,000-token budget
+  [ ] Pick the provisional chunking strategy together (expected: S500)
+
+Week 2 result: ask handbook questions and inspect supporting passages.
+
+======================================================================
+WEEK 3 — Better retrieval and resources
+======================================================================
+
+HAREEM
+  [ ] Scrape selected official pages (admissions FAQ, schedule,
+      programmes, fees, scholarships, Lahore contacts) with
+      page-specific selectors; save dated snapshots + hashes
+  [ ] Mark campus/programme at section level; keep unknowns unknown
+  [ ] Build the past-paper catalogue for PF, OOP, Data Structures,
+      DLD, Databases (course, exam type, year, campus, original link)
+  [ ] Weekly manual refresh script: re-embed only changed content
+
+NOOR
+  [ ] Add PostgreSQL keyword search + reciprocal rank fusion (hybrid)
+      and compare against vector-only
+  [ ] Citations in the UI that resolve to the real source/page
+  [ ] Paper-search feature over the catalogue
+  [ ] Labelled links for FYP handbook, teacher ratings, timetable,
+      Flex, Slate (from useful_links)
+  [ ] Optional feedback button (save Q/A only when user submits)
+
+SHARED
+  [ ] Add web-specific and paper-search questions to the dev set
+  [ ] Test mixed-source retrieval and source-conflict handling
+
+Week 3 result: useful assistant with citations and resource finding.
+
+======================================================================
+WEEK 4 — Bounded agent and pilot
+======================================================================
+
+HAREEM
+  [ ] Implement tool functions: find_papers(course, exam_type?, year?)
+      and check_official_page(source_id) — registered IDs only,
+      redirects restricted to approved hosts, show last-checked date
+      on failure
+  [ ] Verify repeat ingestion creates no duplicate active chunks
+  [ ] Write README sections on data sources and ingestion
+
+NOOR
+  [ ] LangGraph routing: search_knowledge / find_papers /
+      check_official_page; max 3 tool calls, max 1 retrieval retry
+  [ ] Return contract: answer, citations, resource links, status
+      (answered / clarification needed / insufficient evidence)
+  [ ] Keep basic RAG path as fallback; enable agent only if it passes
+      the same quality checks
+  [ ] Logging: tool choices, source IDs, latency, tokens, errors
+  [ ] Deploy to Streamlit Community Cloud; server-side secrets;
+      restricted pilot access
+
+SHARED
+  [ ] Run the 30 held-out tests; manually review answers
+      (targets: >=90% evidence hit@6, >=90% correct & supported,
+      zero invented rules/deadlines/links)
+  [ ] Run the pilot with 5–10 students; collect feedback
+  [ ] Final report / presentation (split sections by ownership)
+
+Week 4 result: pilot deployed for 5–10 students.
+
+======================================================================
+RULES OF THE ROAD
+======================================================================
+  - Work on branches: hareem/<task>, noor/<task>; merge via PR reviewed
+    by the other person.
+  - If extraction runs late, cut website and paper coverage first —
+    never cut evaluation time.
+  - Never commit API keys; use .env (see .env.example).
+  - Weekly 30-minute sync: demo the week's result, update this file.

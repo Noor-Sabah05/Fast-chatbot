@@ -1,0 +1,17 @@
+# Week 1: extraction
+pypdf==6.17.0
+pdfplumber==0.11.10
+langchain-community==0.4.2
+langchain-core==1.8.1
+python-dotenv
+
+# Later weeks (pin when you start using them)
+langchain-text-splitters
+langchain-openai
+langgraph
+tiktoken
+beautifulsoup4
+requests
+supabase
+psycopg[binary]
+streamlit
