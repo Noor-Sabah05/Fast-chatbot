@@ -1,0 +1,20 @@
+{
+  "revision_id": "nu_student_financial_rules:0389ec07cebae153",
+  "source_id": "nu_student_financial_rules",
+  "url": "https://www.nu.edu.pk/Student/FinancialRules",
+  "title": "Student Financial Rules",
+  "clean_hash": "0389ec07cebae153",
+  "raw_hash": "046f79a4ef506bbd",
+  "raw_file": "data\\raw\\web\\nu_student_financial_rules\\2026-11-17_046f79a4ef506bbd.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:41+00:00",
+  "page_updated": null,
+  "page_campus": [
+    "all"
+  ],
+  "clean_chars": 4338,
+  "n_sections": 12,
+  "status": "retired",
+  "activated_at": "2026-11-17T12:10:41+00:00",
+  "retired_at": "2026-11-17T12:15:28+00:00"
+}

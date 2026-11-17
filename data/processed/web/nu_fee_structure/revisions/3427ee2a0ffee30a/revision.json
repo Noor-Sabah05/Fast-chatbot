@@ -1,0 +1,20 @@
+{
+  "revision_id": "nu_fee_structure:3427ee2a0ffee30a",
+  "source_id": "nu_fee_structure",
+  "url": "https://www.nu.edu.pk/Admissions/FeeStructure",
+  "title": "Fee Structure",
+  "clean_hash": "3427ee2a0ffee30a",
+  "raw_hash": "ec8872ae77cac7e9",
+  "raw_file": "data\\raw\\web\\nu_fee_structure\\2026-11-17_ec8872ae77cac7e9.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:37+00:00",
+  "page_updated": null,
+  "page_campus": [
+    "all"
+  ],
+  "clean_chars": 3666,
+  "n_sections": 7,
+  "status": "retired",
+  "activated_at": "2026-11-17T12:10:37+00:00",
+  "retired_at": "2026-11-17T12:15:24+00:00"
+}

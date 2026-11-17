@@ -1,0 +1,20 @@
+{
+  "revision_id": "nu_eligibility_criteria:38ec3ab276936843",
+  "source_id": "nu_eligibility_criteria",
+  "url": "https://www.nu.edu.pk/Admissions/EligibilityCriteria",
+  "title": "Eligibility Criteria",
+  "clean_hash": "38ec3ab276936843",
+  "raw_hash": "b7daf548c9c8e7be",
+  "raw_file": "data\\raw\\web\\nu_eligibility_criteria\\2026-11-17_b7daf548c9c8e7be.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:36+00:00",
+  "page_updated": "2026-08-10",
+  "page_campus": [
+    "all"
+  ],
+  "clean_chars": 17782,
+  "n_sections": 28,
+  "status": "retired",
+  "activated_at": "2026-11-17T12:10:36+00:00",
+  "retired_at": "2026-11-17T12:15:22+00:00"
+}

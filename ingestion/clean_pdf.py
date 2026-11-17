@@ -3,7 +3,7 @@
 What it does on every page:
   1. Drops text placed outside the visible page (this PDF hides the
      neighbouring page's text off-page, which made pages repeat).
-  2. Cuts off the footer bar ("Undergraduate Academic Rules ... 2026" + page no.).
+  2. Cuts off the footer bar (handbook title + page no.; see FOOTER_TEXTS).
   3. Removes the repeated header line.
   4. Turns real tables into one readable line per row, e.g.
      "Grade: A+, Points: 4.00", and splits side-by-side tables into pairs.
@@ -27,12 +27,16 @@ import pdfplumber
 from pypdf import PdfReader
 
 HEADER_RE = re.compile(r"^\s*NATIONAL UNIVERSITY OF COMPUTER AND EMERGING SCIENCES\s*$", re.M)
-FOOTER_TEXT = "ndergraduate Academic Rules and Regulations"  # matches "U ndergraduate" too
+# Footer bar text, one entry per handbook
+FOOTER_TEXTS = (
+    "ndergraduate Academic Rules and Regulations",  # Academic Rules handbook (matches "U ndergraduate" too)
+    "Student Handbook 2026",                        # Student Handbook
+)
 EXTRACTOR_VERSION = "pdfplumber-clean-v1"
 
 
 def is_footer(table) -> bool:
-    return any(FOOTER_TEXT in (cell or "") for row in table for cell in row)
+    return any(ft in (cell or "") for ft in FOOTER_TEXTS for row in table for cell in row)
 
 
 def looks_like_header(row: list[str]) -> bool:
@@ -88,6 +92,7 @@ def table_to_text(rows: list[list[str]]) -> str:
 
 def clean_text(text: str) -> str:
     text = HEADER_RE.sub("", text)
+    text = re.sub(r"Error! Bookmark not\s+defined\.", "", text)   # Word cross-reference leftover (Student Handbook)
     text = re.sub(r"[ \t]+", " ", text)          # collapse runs of spaces
     text = re.sub(r"\n{3,}", "\n\n", text)       # collapse blank lines
     return text.strip()

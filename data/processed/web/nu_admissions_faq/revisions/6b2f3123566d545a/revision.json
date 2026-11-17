@@ -1,0 +1,19 @@
+{
+  "revision_id": "nu_admissions_faq:6b2f3123566d545a",
+  "source_id": "nu_admissions_faq",
+  "url": "https://www.nu.edu.pk/Admissions/FAQ",
+  "title": "Admissions FAQ",
+  "clean_hash": "6b2f3123566d545a",
+  "raw_hash": "d614b3e3c1e539ae",
+  "raw_file": "data\\raw\\web\\nu_admissions_faq\\2026-11-17_d614b3e3c1e539ae.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:15:15+00:00",
+  "page_updated": "2026-06-03",
+  "page_campus": [
+    "all"
+  ],
+  "clean_chars": 11017,
+  "n_sections": 39,
+  "status": "active",
+  "activated_at": "2026-11-17T12:15:15+00:00"
+}

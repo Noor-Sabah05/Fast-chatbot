@@ -1,0 +1,20 @@
+{
+  "revision_id": "nu_admissions_schedule:5394d1d456d9c61c",
+  "source_id": "nu_admissions_schedule",
+  "url": "https://www.nu.edu.pk/Admissions/Schedule",
+  "title": "Admission Schedule",
+  "clean_hash": "5394d1d456d9c61c",
+  "raw_hash": "8fb3d779ee28770c",
+  "raw_file": "data\\raw\\web\\nu_admissions_schedule\\2026-11-17_8fb3d779ee28770c.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:31+00:00",
+  "page_updated": "2026-11-17",
+  "page_campus": [
+    "all"
+  ],
+  "clean_chars": 983,
+  "n_sections": 2,
+  "status": "retired",
+  "activated_at": "2026-11-17T12:10:31+00:00",
+  "retired_at": "2026-11-17T12:15:18+00:00"
+}

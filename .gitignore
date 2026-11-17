@@ -4,3 +4,5 @@ __pycache__/
 *.pyc
 .streamlit/secrets.toml
 data/processed/extraction_compare/
+data/raw/atm/
+.pytest_cache/

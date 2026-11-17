@@ -1,0 +1,94 @@
+{
+  "_about": "Approved official web sources (PREPROCESSING_PLAN step 6). Only pages listed here are scraped or live-checked. Edit by hand; keep source_id stable forever.",
+  "allowed_hosts": ["www.nu.edu.pk", "nu.edu.pk", "lhr.nu.edu.pk"],
+  "sources": [
+    {
+      "source_id": "nu_admissions_faq",
+      "title": "Admissions FAQ",
+      "url": "https://www.nu.edu.pk/Admissions/FAQ",
+      "kind": "web_faq",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": true,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_admissions_schedule",
+      "title": "Admission Schedule",
+      "url": "https://www.nu.edu.pk/Admissions/Schedule",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": true,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_programmes_offered",
+      "title": "Programs Offered",
+      "url": "https://www.nu.edu.pk/Admissions/ProgramOffered",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "unknown",
+      "default_programme": "unknown",
+      "time_sensitive": false,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_eligibility_criteria",
+      "title": "Eligibility Criteria",
+      "url": "https://www.nu.edu.pk/Admissions/EligibilityCriteria",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": true,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_fee_structure",
+      "title": "Fee Structure",
+      "url": "https://www.nu.edu.pk/Admissions/FeeStructure",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": true,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_scholarships",
+      "title": "Financial Assistance/Scholarships",
+      "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": true,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "nu_student_financial_rules",
+      "title": "Student Financial Rules",
+      "url": "https://www.nu.edu.pk/Student/FinancialRules",
+      "kind": "web_page",
+      "selector": "div.main-content",
+      "default_campus": "all",
+      "default_programme": "unknown",
+      "time_sensitive": false,
+      "refresh": "weekly"
+    },
+    {
+      "source_id": "lhr_about_contacts",
+      "title": "About FAST Lahore (campus and contact information)",
+      "url": "https://lhr.nu.edu.pk/about/",
+      "kind": "web_page",
+      "selector": "section",
+      "default_campus": "Lahore",
+      "default_programme": "unknown",
+      "time_sensitive": false,
+      "refresh": "weekly"
+    }
+  ]
+}

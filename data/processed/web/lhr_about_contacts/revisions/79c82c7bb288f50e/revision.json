@@ -1,0 +1,19 @@
+{
+  "revision_id": "lhr_about_contacts:79c82c7bb288f50e",
+  "source_id": "lhr_about_contacts",
+  "url": "https://lhr.nu.edu.pk/about/",
+  "title": "About FAST Lahore (campus and contact information)",
+  "clean_hash": "79c82c7bb288f50e",
+  "raw_hash": "f5218e99532ddaa5",
+  "raw_file": "data\\raw\\web\\lhr_about_contacts\\2026-11-17_f5218e99532ddaa5.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:43+00:00",
+  "page_updated": null,
+  "page_campus": [
+    "Lahore"
+  ],
+  "clean_chars": 2316,
+  "n_sections": 1,
+  "status": "active",
+  "activated_at": "2026-11-17T12:10:43+00:00"
+}

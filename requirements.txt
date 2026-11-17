@@ -5,13 +5,17 @@ langchain-community==0.4.2
 langchain-core==1.8.1
 python-dotenv
 
+# Week 3-4: web pages, paper catalogue, tools
+beautifulsoup4==4.15.0
+lxml==6.1.3
+requests==2.34.2
+pytest==9.1.1
+
 # Later weeks (pin when you start using them)
 langchain-text-splitters
 langchain-openai
 langgraph
 tiktoken
-beautifulsoup4
-requests
 supabase
 psycopg[binary]
 streamlit

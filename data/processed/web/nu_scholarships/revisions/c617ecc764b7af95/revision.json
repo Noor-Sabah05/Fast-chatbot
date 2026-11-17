@@ -1,0 +1,20 @@
+{
+  "revision_id": "nu_scholarships:c617ecc764b7af95",
+  "source_id": "nu_scholarships",
+  "url": "https://www.nu.edu.pk/Admissions/Scholarship",
+  "title": "Financial Assistance/Scholarships",
+  "clean_hash": "c617ecc764b7af95",
+  "raw_hash": "50a109c57c3f5c5e",
+  "raw_file": "data\\raw\\web\\nu_scholarships\\2026-11-17_50a109c57c3f5c5e.html",
+  "extractor": "web-clean-v1",
+  "fetched_at": "2026-11-17T12:10:39+00:00",
+  "page_updated": null,
+  "page_campus": [
+    "Islamabad"
+  ],
+  "clean_chars": 5493,
+  "n_sections": 13,
+  "status": "retired",
+  "activated_at": "2026-11-17T12:10:39+00:00",
+  "retired_at": "2026-11-17T12:15:26+00:00"
+}

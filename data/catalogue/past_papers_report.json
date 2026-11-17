@@ -1,0 +1,2380 @@
+{
+  "built_at": "2026-11-17T11:59:19+00:00",
+  "source_repo": "https://github.com/saleha-muzammil/Academic-Time-Machine",
+  "source_commit": "9fb2cdff6654dab39432fd54efa76131696ebe30",
+  "files_seen": 1065,
+  "papers": 467,
+  "skipped": 586,
+  "by_course": {
+    "DB course": 69,
+    "DB lab": 12,
+    "DLD course": 51,
+    "DLD lab": 20,
+    "DS course": 65,
+    "DS lab": 16,
+    "OOP course": 123,
+    "OOP lab": 32,
+    "PF course": 26,
+    "PF lab": 53
+  },
+  "by_exam_type": {
+    "final": 106,
+    "mid1": 40,
+    "mid2": 41,
+    "quiz": 162,
+    "assignment": 71,
+    "mid": 47
+  },
+  "year_unknown": 184,
+  "skipped_reasons": {
+    "no exam type in name": 122,
+    "slides/notes/outline/samples": 166,
+    "not a paper file type": 298
+  },
+  "skipped_files": [
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 1/In Lab Exercise.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 1/Lab  (DML, DDL) Manual with Examples.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 1/SQLQuery_1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 10/Inlab.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 10/Neon (schema).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 10/Reading 1.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 10/SQLQuery1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 2.1/Task 1/index.html",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 2.1/Task 1/style.css",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 3/Lab 2.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 3/Lab 3.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 4/ATM.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 4/InLab 4.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 4/Lab Manual 4 Guide.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 4/Results.csv",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 4/SQLQuery_1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 5/InLab5TryThisSchema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 5/Lab Manual 5.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 5/SQLQuery_1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 5/SQLQuery_output.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 5/Twitter.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 7/Lab Maunal 6 (Stored Procedures and Views).docx_2.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 7/Lab6TryThisSchema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 7/Views and Procedures.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8(UDF)/Lab 8(UDF).sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8(UDF)/Lab Manual (SQL User Defined Functions).docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8/Inlab 8 Exercise.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8/Neon.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8/SQLQuery_1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8/Triggers Manual.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 8/example_schema_stored_procedures.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 9/Inlab 9 Manual Triggers+ Exercise.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 9/SQLQuery1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/DB-Lab-Spring-24(solutions)/Lab 9/lab.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Final/Fall 2018/Solution.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Final/Spring 2025/Solution.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_1/Lab 1 - MSSQL -  Web Basics - 4H-1.docx.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_1/Lab 1 4E helping meterial 1.2.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_1/Lab 1 4E helping meterial.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_1/Lab 1 4E.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_10/Lab 10 - Rand & PL_SQL Functions.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_11/Data Modeling Tutorial Using Erwin.docx.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_11/Lab 11 - Erwin & ERD.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_12/Lab 12 - Triggers & PL_SQL.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_12/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_13/Lab 13 - Transactions.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_13/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_2/Lab helping material.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_2/SQL Lab 2.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_2/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_3/Lab 3 - Intro to Aggregation and Joins.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_3/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_4/Lab 4 - JOINS & Sub Queries - 4F.docx.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_4/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_5/Lab 5 - Nested_Sub Queries - 4E.docx.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_5/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_6/Lab 6 - Views and Stored Procedures.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_6/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_7/Lab 7 - Triggers & Types.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_7/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_8/Lab 8 - DQL & Frontend.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_8/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_9/Lab 9 - DQL & SQL Functions.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Labs/Spring 2025/DB_Lab_9/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Fall 2018/Q1.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Fall 2018/Q2.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Spring 2019/Q1-Solution.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Spring 2019/Q2-Solution.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Spring 2019/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Mid/Spring 2025/schema.sql",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB Lab/Project Instructions (2025)/Deliverable 0.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Project Instructions (2025)/Deliveriable 1.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB Lab/Project Instructions (2025)/Project Proposal.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB/9. IE (crow foot) ER notation.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB/Book/Ramez Elmasri, Shamkant B. Navathe - Fundamentals of Database Systems (2015, Pearson) - libgen.li (1).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Course Outline- Database Systems CS2005 (Spring 2025).docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/DB Course Outline Spring 2018.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/DB Course Outline Spring 2025.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Database Keys.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB/Final/2025/DB SPRING 2025 Finals Schema SQL.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DB/SQL_Server_Data_Types.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/1. Database System Concepts and Architecture.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/10. From ER-EER to relational Model.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/10. Transactions - Short.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/2. Relational Database Model and Constraints part 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/3. Relational Algebra.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL Views.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 3.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 4 nested queries.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 5.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/4. SQL part 6.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/5. FD part 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/5. FD part 2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/5. FD part 3.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/6. NForms 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/6. NForms 2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/6. Nforms 3.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/7. Data Modeling Using ER Model 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/7. Data Modeling Using ER Model 2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/7. Data Modeling Using ER Model 3.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/8. EER modelling.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Miss Zareen Slides/9. IE (crow foot) ER notation.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Notes/Advance SQL.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Notes/Advanced SQL2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Notes/Basic SQL.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/Notes/Relational Data Model and Relational Constraints.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DB/Slides and Notes/readme.md",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DLD Lab/Mid Term/DLD_Mid_Solution(D2_A).cct",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DLD Lab/Mid Term/DLD_Mid_Solution(D2_B).cct",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "DLD/1.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/2.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/20200105_202052.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/20200105_202101.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/20200105_202108.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/3.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/4.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/5.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/6.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/DLD - CourseOutline.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Boolean Algebra Proofs.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/DLD Spring 2026- Detailed Course Outline BCS 2H.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/DLD week 1-5.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 1.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 10 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 10 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 12.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 13 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 13 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 14.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 2 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 2 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 22 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 22 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 23 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 23 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 25 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 25 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 26 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 26 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 27 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 27 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 28 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 28 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 29 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 29 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 3 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 3 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 30 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 30 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 4 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 4 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 5 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 5 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 6 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 6 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 7.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 8 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 8 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 9 (i).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/LEC pngs/Lec 9 (ii).jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 1-3 [ Week 1 (i) ].pptx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 10-12 [ Week 3 (i) ].pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 13.pptx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 14.pptx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 15.pptx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 16.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 18.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 18.pptx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 19.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 20.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 22.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 23.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 24.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 25.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 26.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 27.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 4-5 [ Week 1 (ii) ].pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 6-8 [ Week 2 (i) ].pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 8 - (ii).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 9 [ Week 2 (i) ].pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD - Slides + Lectures/Lecture 9 [ Week 2 (ii) ].pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD Notes Till MID 1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD Spring 2021- Detailed Course Outline.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "DLD/DLD solutions.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/DLD-Ch1.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/DLD-ch2.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/DLD Project.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD LAB 3.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD LAB 4.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD LAB 5.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 1.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 10.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 11.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 12.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 13.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 2.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 6.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 7.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 8.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Mam Sobia Tariq/Section A1 LABS/DLD Lab 9.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Q1.jpeg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3647.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3648.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3649.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3650.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3651.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3652.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3653.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3654.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3655.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3656.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3657.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3658.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3659.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3660.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3661.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3662.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3663.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/Solutions/IMG_3664.JPG",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/_Solution.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dld part 2-converted.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dld.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dldspring14(2).jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dldspring14(3).jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dldspring14(4).jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "DLD/dldspring14.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "Data Structures/DS Course Outline (Amna) Spring 2020.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/DS Course Outline Fall 2020.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/DS Course Outline Spring 2020.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/DS Graph Practice Problems.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Q5-TreeTraversals.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Q6-HashingLinearProbing.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Average Paper/Final Exam DS.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Average Paper/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Average Paper/Q6.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/BEST-Paper/18l-2191 final.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/BEST-Paper/18l2191 qs6.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/BEST-Paper/qs218l2191.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Worst-Paper/18L-1051 final ds (1).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Worst-Paper/18L-1051 final q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Worst-Paper/18L-1051final q6.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section A/Worst-Paper/Marks.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Average-Paper/18L-1056(B).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Average-Paper/q2(18l1056).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Average-Paper/q6(18l1056).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Best-Paper/18L-1223.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Best-Paper/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Best-Paper/Q6.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Worst-Paper/18L-1004 final exam.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section B/Worst-Paper/Q2 18l-1004.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Average/l181182, Rai Arslan Riasat/Q2 (18L-1182).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Average/l181182, Rai Arslan Riasat/Q6 (18L-1182).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Average/l181182, Rai Arslan Riasat/Rai Arslan (18L-1182).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Best/l165405, Haseeb Ur Rehman/Haseeb_16L_5405.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Best/l165405, Haseeb Ur Rehman/Question_No_2_a_haseeb_16L_5405.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Best/l165405, Haseeb Ur Rehman/Question_No_6_haseeb_16L_5405.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Worst/l174310, Muhammad Ahmad/174310-FINAL- MUHAMMAD-AHMAD.zip",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Worst/l174310, Muhammad Ahmad/174310-FINAL- MUHAMMAD-AHMAD/174310-FINAL- MUHAMMAD-AHMAD/174310- Q3,4.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Worst/l174310, Muhammad Ahmad/174310-FINAL- MUHAMMAD-AHMAD/174310-FINAL- MUHAMMAD-AHMAD/174310-Q2.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Worst/l174310, Muhammad Ahmad/174310-FINAL- MUHAMMAD-AHMAD/174310-FINAL- MUHAMMAD-AHMAD/174310-Q7.jpg",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "Data Structures/Finals/DS Final Spring 2020/Samples/Section C/Worst/l174310, Muhammad Ahmad/174310-FINAL- MUHAMMAD-AHMAD/174310-FINAL- MUHAMMAD-AHMAD/Final-Q6-MUHAMMAD AHMAD-174310.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section A/AverageProject-ASection.zip",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section A/BEST-PROJECT-SECA.zip",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section A/WorstProject-SecA.rar",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section B/Average-project.rar",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section B/Best-Project.zip",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "Data Structures/Projects/2020/Section B/Worst-Project-Section B.zip",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/20200105_201540.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/20200105_201546.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Final/Solution/Q1.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Final/Solution/Q2.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Final/Solution/Q3.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 10.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 11.doc",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 12.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 13/exception handling.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 13/lab 13.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 14.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 2.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 3.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 4/CarsData.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 4/Lab 4.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 4/Lab4.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 4/RequiredOutput.png",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 5.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 6.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 7.doc",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 8.doc",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Lab 9.doc",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/LAB 13.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 01.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 02.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 03.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 04.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 05.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 06.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 07.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 08.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 09.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 10.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 11.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Lab 12.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/LAB/Manual/Section A LABS/Quiz-1.docx",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 02-solution.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 1/solution_question1.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 2/solution_quiz2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 3/quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 3/solution_quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 4/solution.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Quiz 5/solution.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q1-solution (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q1-solution (3).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q1-solution (4).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q1-solution.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q2-solution (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q2-solution (3).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q2-solution (4).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP Lab/OOP Lab/Solution/q2-solution.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Assignments/1/Sound.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Assignments/1/wavfile.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Assignments/1/wavfile.h",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Assignments/2/sampleMatrices.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture-Inheritance.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture-MembersInitializerList.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture-Protected Data Members.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_10 PointerArraysCStrings.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_11 C++ Classes, Objects, Data Members (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_11 Object Oriented Programming Introduction (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_12 C++ Classes, Member Functions (Getters-Setters, Accessors-Mutators) (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_13 C++ Classes, Data Members (Pointers-Dynamic) (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_13 C++ Classes, Member Functions (Constructors-Destructors) (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_14 C++ Classes, Data Members (Constant, Static, Arrays) (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_15 Dynamic Object Arrays (BCS-2A, 2B).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_15 Operator Overloading Introduction and Member Functions (Unary Operators)(BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_16 Operator Overloading Member Functions (Binary Operators) (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_17 Operator Overloading Non-Member Functions (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_18 Class Relationships- Aggregation (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_18 Class Relationships- Dependency, Association  (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_19 Class Relationships- Composition (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_20 Class Relationships - Inheritance - Constructor call and Function Overriding (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_20 Class Relationships - Inheritance - Introduction and Types (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_21 Class Relationships - Inheritance - Compile Time Binding (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_21 Class Relationships - Inheritance - Polymorphism and Run Time Binding (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_22 AbstractClass.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_22 Class Relationships - Inheritance - Abstract Class, Interface (BCS-2A).ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_22 Polymorphism.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_23 Class Relationships - Inheritance - Downcasting.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_23 Class Relationships - Inheritance - Identifiers.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_23 Class Relationships - Inheritance - Multiple Inheritance.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_24 Exception Handling.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_24 ExceptionHandling.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_25 Function Templates.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_26 Function Templates - Overloading, Specialization.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_27 Class Templates - Specialization.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_27 Class Templates.ppsx",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_3 Dynamic Variables (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_4 Pointers and Functions (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_5 Pointers and 1D-Arrays (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_6 Pointers and 1D-Arrays 2 (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_7 Multiple Indirection and 2D Arrays (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_8 Multiple Indirection and 2D Arrays 2 (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/By Maam Abeeda/Lectures/Lecture_9 Multiple Indirection and Functions (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/OOP(CS-217) Course Outline Spring 2021 (BCS-2A).pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Project/Lib/main.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Project/Lib/mygraphics.h",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Project/Project - Ride Management System.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "OOP/OOP (NEW Syllabus)/Project/Project - Tetris.pdf",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/Final Exam/Average/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Average/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Best/Q1(1).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Best/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Best/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/Pf final (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/pf final (1).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/task1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Average/task2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Q1(l190969).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Q2(l190969).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Question 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Best/Question2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Model/final.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Worst/Questio no 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Worst/Question no 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Worst/Question#1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Worst/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/Worst/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Solution/final solution.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Worst/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final Exam/Worst/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final paper +Solution/SOL-PF Final Paper # 1 Fall 2019(1).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final paper +Solution/SOL-PF Final Paper # 1 Fall 2019.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final-Exam-Solution/Solution/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final-Exam-Solution/Solution/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final-Exam-Solution/Solution/Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Q1(Solution).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Q2(Solution).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q (1).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q (3).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Final/Solution/Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/FinalTerm/FinalTerm Solution/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/FinalTerm/FinalTerm Solution/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/FinalTerm/FinalTerm Solution/Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/LABS/PF- Lab 13.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF- Lab 6.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF- Lab 7.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF--Lab 8.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF-Lab 10.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF-Lab 11.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF-Lab 12.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF-Lab 9.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/LABS/PF-Lab-5.docx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Average/p1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Average/p2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Best/Q 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Best/Q 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Worst/Source.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Final/Worst/Source1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Average/Task 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Average/Task 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Best/Source.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Best/question3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Best/questionno2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Worst/Question 3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Worst/Question1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid +Final (Best Average Worst )/Mid/Worst/Question2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/q1 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/q2 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/question 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Average/question 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/19L1036-Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/19L1036-Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/19L1036-Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/Q1 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/Q2 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/Q3 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Best/q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/Task1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/Task2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/Task3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Model/q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/L19-2250/Question 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/L19-2250/Question 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/L19-2250/Question 3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/QUESTION NO 1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid Exam/Solution/Worst/question 2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid paper +Solution/Solution PF MID Paper # 2/Task1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid paper +Solution/Solution PF MID Paper # 2/Task2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid paper +Solution/Solution PF MID Paper # 2/Task3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Mid Solution/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Mid Solution/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Mid Solution/Q3 .cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Q1(Solution).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Q2(Solution).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Q3(Solution).txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Input.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q2 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q3 (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solution/Q4.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solutions/Q (1).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solutions/Q (2).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Mid/Solutions/Q (3).cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Average/decimal number.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Average/series identification.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Best/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Best/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Best/q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Solution/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Solution/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Solution/q3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm Exam/Worst/q2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm/MidTerm_Solution/Question 2 zulfiqar.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm/MidTerm_Solution/question 1 zulfiqar.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/MidTerm/MidTerm_Solution/question 3 zulfiqar.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quiz solution/Quiz1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quiz solution/Quiz2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quiz solution/Quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quiz/Quiz1_Solution/Thumbs.db",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/Quiz detail.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 1/18L-0978 -Best.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 1/19L-1174- worst.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 1/19L-2737- Average .cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 2/18L-0978 -Best.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 2/19L-0972-Average.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 2/19L-2350-worst.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 3/19L-0981-Best.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 3/19L-1040_average.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizs(Best Average Worst)/quiz 3/19L-1231-worst.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 1/Average/z.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 1/Best/quiz.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 1/Solution/quiz1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 1/Worst/q1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 2/Average/quiz.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 2/Best/quiz2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 2/Solution/quiz2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 2/Worst/quiz.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 3/Average/Quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 3/Best/Quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 3/Insertion-sort-example-300px.gif",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 3/Solution/Quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz 3/Worst/Quiz3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz1/Output.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz2/Solution.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF Lab/Quizzes/Quiz2/student.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/15540615_1158889464188506_6192430931767081237_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15578222_1158889260855193_7233378121322042306_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15585170_1158889320855187_2992942383981897575_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15585202_1158889604188492_6433510278923014805_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15585264_1158889257521860_7136131123747889749_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15585385_1158889517521834_1438148488633744223_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15585468_1158889454188507_2173497676839486199_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15590929_1158889514188501_867070791906031770_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15591051_1158889740855145_270226766434272011_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15625869_1158889734188479_5322569247050706592_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15626249_1158889607521825_9059627429416943187_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15626303_1158889417521844_6319729473154780618_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/15626495_1158889324188520_561486121211002827_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25299988_1495712013839581_4618241117287129068_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358260_1495712193839563_4178764050154358841_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358372_1495712707172845_8008402820828639375_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358435_1495712370506212_214416933608608064_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358436_1495712253839557_1440963576188038143_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358578_1495712783839504_8789375814997797523_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25358610_1495712093839573_563394185863320469_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25394740_1495712127172903_8806379909982885547_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25394751_1495712603839522_2174981920312296455_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25398229_1495712477172868_576085683510525518_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25438887_1495712417172874_2379174301021083233_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/25439936_1495712317172884_7951285451564133542_o.jpg",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/Lec-Fetch and Execute Cycle.pptx",
+      "reason": "no exam type in name"
+    },
+    {
+      "path": "PF/PF_CS-118_ Course Outline Fall 2020 - Section E and F.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#1.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#10.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#11.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#2.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#3.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#4.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/Problems#5.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#6.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#7.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#8.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/Problems#9.pdf",
+      "reason": "slides/notes/outline/samples"
+    },
+    {
+      "path": "PF/assignment - 1/l201004/l201004_q_1.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 1/l201004/l201004_q_2.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 1/l201004/l201004_q_3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 1/l201004/l201004_q_4.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 1/l201004/l201004_q_5.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/1.a/1.a.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/1.b/1.b.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/1.b/pair.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/2.a/2.a.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/2.b/2.b.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/2.b/students.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/3/3.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/3/A.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/3/B.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/3/C.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/4.cpp",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/Coeff_File_1.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/Coeff_File_2.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/Degree_File_1.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/Degree_File_2.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/add_coeff_file.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/add_degree_file.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/subtract_coeff_file.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/assignment - 2/solution/4/subtract_degree_file.txt",
+      "reason": "not a paper file type"
+    },
+    {
+      "path": "PF/solution.pdf",
+      "reason": "no exam type in name"
+    }
+  ]
+}

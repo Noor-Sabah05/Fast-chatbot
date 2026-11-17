@@ -14,6 +14,7 @@ Each chunk has:
 
 Usage:
     python ingestion/chunk.py data/processed/Academic_Rules_Handbook_2026/pages.jsonl
+    python ingestion/chunk.py data/processed/Student_Handbook_2026/pages.jsonl
 Output:
     data/processed/<name>/chunks/R300.jsonl, R500.jsonl, R800.jsonl, S500.jsonl
 """
@@ -33,6 +34,16 @@ EXPERIMENTS = {"R300": (300, 45), "R500": (500, 75), "R800": (800, 120), "S500":
 
 SECTION_RE = re.compile(r"^(\d{1,2})\.\s+([A-Z][^:;=]{2,70})$")   # "9. Policy on Retake Examination"
 RULE_RE = re.compile(r"^\d{1,2}\.\d{1,2}\s")                        # "2.3 The points for ..."
+# Student Handbook style: "II - FINANCIAL RULES", "VI – SEMESTER RULES", "IX .STUDENT SOCIETIES", "XI. Policy on ..."
+ROMAN_SECTION_RE = re.compile(r"^([IVX]{1,4})\s*[-–.]\s*\.?\s*([A-Z].{2,70})$")
+ROMAN = {"I": 1, "V": 5, "X": 10}
+
+
+def roman_to_int(r: str) -> int:
+    total = 0
+    for a, b in zip(r, r[1:] + " "):
+        total += -ROMAN[a] if ROMAN.get(b, 0) > ROMAN[a] else ROMAN[a]
+    return total
 
 
 def n_tokens(text: str) -> int:
@@ -66,12 +77,21 @@ def find_headings(doc: str):
     """Return a sorted list of (position, level, title). level 1 = section, 2 = sub-heading."""
     headings, section_no, pos = [], 0, 0
     lines = doc.split("\n")
+    # A document numbers its sections either "9. Title" or "IX - TITLE". In the Roman
+    # style, "1. ..." lines are list items, so the Arabic pattern is switched off.
+    roman = any((m := ROMAN_SECTION_RE.match(l.strip())) and roman_to_int(m.group(1)) == 1 for l in lines)
     prev = "."
     for i, line in enumerate(lines):
         s = line.strip()
         nxt = lines[i + 1].strip() if i + 1 < len(lines) else ""
-        m = SECTION_RE.match(s)
-        if m and int(m.group(1)) == section_no + 1 and not s.endswith("."):
+        m = None if roman else SECTION_RE.match(s)
+        rm = ROMAN_SECTION_RE.match(s) if roman else None
+        if rm and roman_to_int(rm.group(1)) == section_no + 1:
+            section_no = roman_to_int(rm.group(1))
+            headings.append((pos, 1, s))
+        elif roman and section_no == 0 and s.isupper() and len(s) >= 8 and s.replace(" ", "").isalpha():
+            headings.append((pos, 1, s))     # unnumbered opening section, e.g. "CODE OF CONDUCT"
+        elif m and int(m.group(1)) == section_no + 1 and not s.endswith("."):
             section_no = int(m.group(1))
             title = s
             first_word = nxt.split()[0] if nxt else ""
@@ -82,6 +102,7 @@ def find_headings(doc: str):
             3 <= len(s) <= 70 and s[0].isupper()
             and not RULE_RE.match(s) and not re.match(r"^\(?\d", s)
             and s[-1] not in ".,;:" and ":" not in s and "=" not in s
+            and len(s.split()) <= 8 and "," not in s     # headings are short; wrapped sentences are not
             and (prev.rstrip()[-1:] in ".:;" or re.search(r"\w: \S", prev))  # sentence or table row finished
             and not (nxt[:1].islower())                # next line isn't a continuation
         ):
